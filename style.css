@@ -19,10 +19,13 @@ html{
 }
 
 .middle {
+    background-color: rgba(211, 211, 211, 0.391);
     position: relative;
     bottom: 840px;
     left: 30%;
     width: 70%;
+    height: 820px;
+    border-radius: 6px;
 }
 
 .welcome {
@@ -39,7 +42,7 @@ html{
 }
 
 .home-list {
-    margin:20px 35px;
+    margin:20px 40px;
     padding: auto;
     background-color: rgba(67, 67, 67, 0.236);
     border: solid rgba(67, 67, 67, 0.236);
