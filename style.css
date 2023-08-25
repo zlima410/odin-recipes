@@ -65,8 +65,8 @@ a {
 
 .home {
     height: auto;
-    width: 700px;
-    margin: 0 0 0 257px;
+    width: 900px;
+    margin: 0 0 0 200px;
 }
 
 .recipe {
@@ -96,5 +96,10 @@ p {
 
 li {
     margin: 5px 0 10px 0;
+}
+
+.para {
+    margin: 5px 0 0 17%;
+    font-size: 20px;
 }
 
