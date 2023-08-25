@@ -1,0 +1,97 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.setup {
+    background-color: white;
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    font-display: swap;
+}
+
+.middle {
+    position: relative;
+    bottom: 840px;
+    left: 30%;
+    width: 70%;
+}
+
+.welcome {
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+.title {
+    background-color: #00000080;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+}
+
+.home-list {
+    margin:20px 35px;
+    padding: auto;
+    background-color: rgba(67, 67, 67, 0.236);
+    border: solid rgba(67, 67, 67, 0.236);
+    border-radius: 6px;
+    height: 800px;
+    width: 25%;
+}
+
+.item {
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    list-style-type: none;
+}
+
+a {
+    color: black;
+}
+
+.home {
+    height: auto;
+    width: 700px;
+    margin: 0 0 0 257px;
+}
+
+.recipe {
+    height: auto;
+    width: 500px;
+    display: block;
+    margin: auto 40px;
+}
+
+.description {
+    text-align: left;
+    margin: 10px 0 5px 10px;
+}
+
+.ingredients {
+    margin: auto 35px;
+}
+
+p {
+    margin: auto 25px;
+}
+
+.directions-list {
+    list-style-type: decimal;
+    margin: 5px 35px 20px;
+}
+
+li {
+    margin: 5px 0 10px 0;
+}
+
